@@ -34,7 +34,7 @@
         <h1 class="title">Laura Jong</h1>
         <h2 class="subtitle">Software Developer</h2>
         <div class="container_article">
-          <p class="article">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+          <p class="article">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
               don’t hestiate to contact me.
           </p>
         </div>
@@ -155,9 +155,12 @@
         <h3 class="styleh3">CONTACT US</h3>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         <form action="https://formspree.io/f/moqrojze" method="POST" class="formstyle">
-          <input type="text" placeholder="Text input" maxlength="30" required>
-          <input type="email" placeholder="Email Address" required>
-          <textarea name="text" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
+          <label for="full_name">Full Name</label>
+          <input id="full_name" type="text" placeholder="Text input" maxlength="30" required>
+          <label for="email_address">Email Address</label>
+          <input id="email_address" type="email" placeholder="Email Address" required>
+          <label for="text_area">Message to Send</label>
+          <textarea id="text_area" name="text" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
           <button type="submit" class="button_submit"><span>Send</span></button>
         </form>
       </div>
