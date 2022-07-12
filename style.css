@@ -414,7 +414,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.648);
 }
 
 .button_submit {
