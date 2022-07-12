@@ -433,7 +433,7 @@ body {
   display: flex;
   justify-content: center;
   letter-spacing: 0.03em;
-  color: #edecff;
+  color: rgba(0, 0, 0, 0.648);
 }
 
 .button_submit:hover {
