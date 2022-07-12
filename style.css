@@ -502,6 +502,10 @@ body {
   height: 1px;
 }
 
+.container label {
+  display: none;
+}
+
 @media only screen and (max-width: 1800px) {
   body {
     background-color: #191765;
