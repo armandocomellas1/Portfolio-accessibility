@@ -160,7 +160,16 @@ body {
   margin-bottom: 50px;
 }
 
-.works h1 {
+.desktop_works h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #9490ff;
+  width: 100%;
+  font-size: 62px;
+}
+
+.middle_works .second_main {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -414,7 +423,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.648);
 }
 
 .button_submit {
@@ -429,11 +438,11 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 11px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
   letter-spacing: 0.03em;
-  color: #edecff;
+  color: rgba(0, 0, 0, 0.648);
 }
 
 .button_submit:hover {
@@ -500,6 +509,10 @@ body {
   background: #646369;
   width: 100%;
   height: 1px;
+}
+
+.container label {
+  display: none;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -722,7 +735,7 @@ body {
     display: flex;
   }
 
-  .middle_works h1 {
+  .middle_desktop_works h1 {
     font-size: 40px;
     font-weight: normal;
     text-transform: uppercase;
@@ -833,6 +846,12 @@ body {
     margin-left: 0;
   }
 
+  .middle_works .second_main {
+    width: 80% !important;
+    font-size: 40px !important;
+    margin-right: 20%;
+  }
+
   .special_flex .container_column {
     width: 100%;
   }
@@ -925,7 +944,7 @@ body {
     display: flex;
   }
 
-  .middle_works h1 {
+  .middle_desktop_works h1 {
     font-size: 40px;
     font-weight: normal;
     text-transform: uppercase;
@@ -1166,7 +1185,7 @@ body {
     width: 70%;
   }
 
-  .middle_works h1 {
+  .middle_desktop_works h1 {
     font-size: 40px;
     font-weight: normal;
     text-transform: uppercase;
@@ -1265,6 +1284,12 @@ body {
     font-weight: 300;
     font-size: 30px;
     color: #fff;
+  }
+
+  .middle_works .second_main {
+    width: 60% !important;
+    font-size: 30px !important;
+    margin-right: 20%;
   }
 
   .desktop_works {
@@ -1412,7 +1437,7 @@ body {
     width: 70%;
   }
 
-  .middle_works h1 {
+  .middle_desktop_works h1 {
     font-size: 40px;
     font-weight: normal;
     text-transform: uppercase;
@@ -1605,7 +1630,7 @@ body {
     margin-bottom: 55px;
   }
 
-  .middle_works h1 {
+  .middle_desktop_works h1 {
     width: 80% !important;
     font-size: 30px !important;
   }
@@ -1676,7 +1701,7 @@ body {
     width: 70%;
   }
 
-  section .middle_works h1 {
+  section .middle_desktop_works h1 {
     font-size: 40px;
     font-weight: normal;
     text-transform: uppercase;
